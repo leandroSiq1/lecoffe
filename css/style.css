@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+
+    font-family: 'Lato', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+header {
+    width: 100%;
+    height: 110px;
+
+    background: #000;
+}
+
+header div.container-header {
+    max-width: 930px;
+    height: 100%;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div.container-header img {
+    width: 215px;
+    height: 63px;
+}
+
+header div.container-header nav a {
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 5px 0 0 30px;
+}
+
+section.conteudo-inicial {
+    width: 100%;
+    height: 90%;
+
+    background-image: url('/images/coffe-friends.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+div.fundo-transparent {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.5);
+    /*fiz isso como uma solução, para facilitar a leitura dos texto  em branco. */
+}
+
+div.fundo-transparent.menu {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.5);
+   /*fiz isso como uma solução, para facilitar a leitura dos texto  em branco. */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+section.conteudo-inicial div.container-inicial h1 {
+    font-size: 120px;
+    letter-spacing: -7px;
+
+    padding-top: 130px;
+}
+
+div.container-inicial {
+    max-width: 930px;
+    height: 100%;
+    margin: auto;
+}
+
+div.container-inicial p {
+    padding-top: 90px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section.sobre {
+    width: 100%;
+
+    text-align: center;
+
+    background: #000;
+
+    padding-bottom: 90px;
+}
+
+section.sobre > h1 {
+    font-size: 35px;
+    letter-spacing: -2px;
+    padding: 100px 0 65px 0;
+}
+
+div.container-sobre {
+    max-width: 930px;
+
+    padding: 0 10px 0 10px;
+    text-align: left;
+
+    background: #000;
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.container-sobre h1 {
+    padding: 20px 0 10px 0;
+}
+
+div.img {
+    max-width: 450px;
+}
+
+div.container-sobre div.quem-somos img,
+div.container-sobre div.cafe-cia img {
+    width: 100%;
+}
+
+div.quem-somos {
+    width: 50%;
+    margin-right: 20px;
+}
+
+div.container-sobre div.cafe-cia {
+    width: 50%;
+    height: auto;
+}
+
+section.menu {
+    width: 100%;
+    height: 450px;
+
+    background-image: url('/images/cafe1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.menu h1 {
+    font-size: 35px;
+    letter-spacing: -1px;
+    padding-bottom: 25px;
+}
+
+section.menu p {
+    padding-bottom: 40px;
+}
+
+section.menu a {
+    width: 150px;
+    height: 40px;
+
+    font-size: 15px;
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: .2s;
+}
+
+section.menu a:hover {
+    background: rgba(255,255,255,0.7);
+}
+
+footer {
+    width: 100%;
+    height: 310px;
+
+    background: #000;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+footer p > img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 5px;
+}
+
+div.container-footer {
+    max-width: 930px;
+    height: 100%;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.conteudo-footer {
+    width: 300px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.conteudo-footer > img {
+    width: 215px;
+    height: 63px;
+}
+
+div.conteudo-footer small {
+    padding: 0 0 20px 0;
+}
+
+div.contato {
+    width: 300px;
+    height: 100%;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+div.contato h3 {
+    font-size: 25px;
+}
+
+div.contato nav ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+div.contato nav ul li {
+    margin-left: 15px;
+}
+
+div.contato nav a img {
+    width: 40px;
+    height: 40px;
+}
